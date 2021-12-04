@@ -1,0 +1,30 @@
+{
+  "name": "image-slider",
+  "version": "1.0.0",
+  "description": "Resuable image slider for future projects.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mattwwilson34/image-slider.git"
+  },
+  "author": "Matt Wilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mattwwilson34/image-slider/issues"
+  },
+  "homepage": "https://github.com/Mattwwilson34/image-slider#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "eslint": "^8.4.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
