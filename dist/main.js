@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  background-color: blue;\n}\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,sBAAsB;AACxB","sourcesContent":["body {\n  background-color: blue;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*,\n*:before,\n*::after {\n  box-sizing: border-box;\n}\n\nhtml,\nbody {\n  height: 100vh;\n}\n\n.image-slider {\n  height: 600px;\n  width: 800px;\n  border: 1px solid black;\n  display: flex;\n  justify-content: center;\n  gap: 20px;\n  flex-direction: column;\n  background: rgb(47, 46, 46);\n}\n.image-arrows-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 20px;\n}\n\n.image-container {\n  overflow: hidden;\n}\n\n.image-container,\n.images {\n  height: 400px;\n  width: 600px;\n  display: flex;\n  position: relative;\n  transition: 1s;\n}\n\n.image {\n  height: 400px;\n  width: 600px;\n  flex-shrink: 0;\n  position: relative;\n  background-size: contain;\n  z-index: 1;\n  left: 0px;\n  transition: left 2s;\n}\n\n.back-arrow,\n.forward-arrow {\n  height: 45px;\n  width: 45px;\n  font-size: 25px;\n  margin: 0;\n  padding: 0;\n  outline: none;\n  background: none;\n  color: white;\n  border: 2px solid white;\n  z-index: 10;\n}\n\n.back-arrow:hover,\n.forward-arrow:hover {\n  cursor: pointer;\n  background: white;\n  color: black;\n}\n\n.nav-circle-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 15px;\n}\n\n.nav-circle {\n  height: 15px;\n  width: 15px;\n  border-radius: 50%;\n  background: white;\n  opacity: 40%;\n}\n.nav-circle:hover {\n  cursor: pointer;\n  opacity: 100%;\n}\n\n.active {\n  opacity: 1;\n}\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;;;EAGE,sBAAsB;AACxB;;AAEA;;EAEE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,YAAY;EACZ,uBAAuB;EACvB,aAAa;EACb,uBAAuB;EACvB,SAAS;EACT,sBAAsB;EACtB,2BAA2B;AAC7B;AACA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,SAAS;AACX;;AAEA;EACE,gBAAgB;AAClB;;AAEA;;EAEE,aAAa;EACb,YAAY;EACZ,aAAa;EACb,kBAAkB;EAClB,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,YAAY;EACZ,cAAc;EACd,kBAAkB;EAClB,wBAAwB;EACxB,UAAU;EACV,SAAS;EACT,mBAAmB;AACrB;;AAEA;;EAEE,YAAY;EACZ,WAAW;EACX,eAAe;EACf,SAAS;EACT,UAAU;EACV,aAAa;EACb,gBAAgB;EAChB,YAAY;EACZ,uBAAuB;EACvB,WAAW;AACb;;AAEA;;EAEE,eAAe;EACf,iBAAiB;EACjB,YAAY;AACd;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,SAAS;AACX;;AAEA;EACE,YAAY;EACZ,WAAW;EACX,kBAAkB;EAClB,iBAAiB;EACjB,YAAY;AACd;AACA;EACE,eAAe;EACf,aAAa;AACf;;AAEA;EACE,UAAU;AACZ","sourcesContent":["*,\n*:before,\n*::after {\n  box-sizing: border-box;\n}\n\nhtml,\nbody {\n  height: 100vh;\n}\n\n.image-slider {\n  height: 600px;\n  width: 800px;\n  border: 1px solid black;\n  display: flex;\n  justify-content: center;\n  gap: 20px;\n  flex-direction: column;\n  background: rgb(47, 46, 46);\n}\n.image-arrows-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 20px;\n}\n\n.image-container {\n  overflow: hidden;\n}\n\n.image-container,\n.images {\n  height: 400px;\n  width: 600px;\n  display: flex;\n  position: relative;\n  transition: 1s;\n}\n\n.image {\n  height: 400px;\n  width: 600px;\n  flex-shrink: 0;\n  position: relative;\n  background-size: contain;\n  z-index: 1;\n  left: 0px;\n  transition: left 2s;\n}\n\n.back-arrow,\n.forward-arrow {\n  height: 45px;\n  width: 45px;\n  font-size: 25px;\n  margin: 0;\n  padding: 0;\n  outline: none;\n  background: none;\n  color: white;\n  border: 2px solid white;\n  z-index: 10;\n}\n\n.back-arrow:hover,\n.forward-arrow:hover {\n  cursor: pointer;\n  background: white;\n  color: black;\n}\n\n.nav-circle-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 15px;\n}\n\n.nav-circle {\n  height: 15px;\n  width: 15px;\n  border-radius: 50%;\n  background: white;\n  opacity: 40%;\n}\n.nav-circle:hover {\n  cursor: pointer;\n  opacity: 100%;\n}\n\n.active {\n  opacity: 1;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -528,6 +528,46 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/images/clara-metivier-beukes.jpg":
+/*!**********************************************!*\
+  !*** ./src/images/clara-metivier-beukes.jpg ***!
+  \**********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "dbbf3955b7fbbbe54a2e.jpg";
+
+/***/ }),
+
+/***/ "./src/images/miguel-angel-hernandez.jpg":
+/*!***********************************************!*\
+  !*** ./src/images/miguel-angel-hernandez.jpg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "c27cd767a994646fc2d8.jpg";
+
+/***/ }),
+
+/***/ "./src/images/mor-shani.jpg":
+/*!**********************************!*\
+  !*** ./src/images/mor-shani.jpg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "7c5387770f0569c54fd1.jpg";
+
+/***/ }),
+
+/***/ "./src/images/ryan-moreno.jpg":
+/*!************************************!*\
+  !*** ./src/images/ryan-moreno.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "8ed80c7959443d438954.jpg";
+
 /***/ })
 
 /******/ 	});
@@ -581,6 +621,18 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -597,6 +649,26 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
@@ -606,7 +678,90 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
+/* harmony import */ var _images_clara_metivier_beukes_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/clara-metivier-beukes.jpg */ "./src/images/clara-metivier-beukes.jpg");
+/* harmony import */ var _images_miguel_angel_hernandez_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/miguel-angel-hernandez.jpg */ "./src/images/miguel-angel-hernandez.jpg");
+/* harmony import */ var _images_mor_shani_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/mor-shani.jpg */ "./src/images/mor-shani.jpg");
+/* harmony import */ var _images_ryan_moreno_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/ryan-moreno.jpg */ "./src/images/ryan-moreno.jpg");
 
+
+
+
+
+
+const imageSlider = {
+  images: document.querySelector('.images'),
+  imageDivs: document.querySelectorAll('.image'),
+  importedImages: [_images_clara_metivier_beukes_jpg__WEBPACK_IMPORTED_MODULE_1__, _images_miguel_angel_hernandez_jpg__WEBPACK_IMPORTED_MODULE_2__, _images_mor_shani_jpg__WEBPACK_IMPORTED_MODULE_3__, _images_ryan_moreno_jpg__WEBPACK_IMPORTED_MODULE_4__],
+  navCircles: document.querySelectorAll('.nav-circle'),
+
+  init() {
+    this.storeControls();
+    this.setImageUrls();
+    this.setEvents();
+    this.images.style.left = 0;
+  },
+
+  setImageUrls() {
+    for (let i = 0; i < this.imageDivs.length; i++) {
+      this.imageDivs[i].style.backgroundImage = `url(${this.importedImages[i]})`;
+    }
+  },
+
+  storeControls() {
+    this.leftArrow = document.querySelector('.back-arrow');
+    this.rightArrow = document.querySelector('.forward-arrow');
+  },
+
+  getPosition() {
+    return parseInt(this.images.style.left.split('p')[0]);
+  },
+
+  toggleActiveCircle() {
+    document.getElementsByClassName('active')[0].classList.toggle('active');
+  },
+
+  scrollLeft() {
+    if (this.getPosition() === 0) {
+      this.images.style.left = `-1800px `;
+      this.toggleActiveCircle();
+      this.navCircles[3].classList.toggle('active');
+    } else {
+      this.images.style.left = `${this.getPosition() + 600}px `;
+      const activeCircle = document.getElementsByClassName('active')[0];
+      this.toggleActiveCircle();
+      activeCircle.previousElementSibling.classList.toggle('active');
+    }
+  },
+  scrollRight() {
+    if (this.getPosition() === -1800) {
+      this.images.style.left = `0px `;
+      this.toggleActiveCircle();
+      this.navCircles[0].classList.toggle('active');
+    } else {
+      this.images.style.left = `${this.getPosition() - 600}px `;
+      const activeCircle = document.getElementsByClassName('active')[0];
+      this.toggleActiveCircle();
+      activeCircle.nextElementSibling.classList.toggle('active');
+    }
+  },
+
+  jumpToImage(e) {
+    this.toggleActiveCircle();
+    const navCircle = e.target;
+    navCircle.classList.toggle('active');
+    this.images.style.left = `${navCircle.dataset.position}px`;
+  },
+
+  setEvents() {
+    this.leftArrow.addEventListener('click', this.scrollLeft.bind(this));
+    this.rightArrow.addEventListener('click', this.scrollRight.bind(this));
+    this.navCircles.forEach((navCircle) => {
+      navCircle.addEventListener('click', this.jumpToImage.bind(this));
+    });
+  },
+};
+
+imageSlider.init();
 
 })();
 
